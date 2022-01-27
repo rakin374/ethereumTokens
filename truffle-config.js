@@ -7,6 +7,7 @@ const ropstenUrl = 'https://ropsten.infura.io/v3/89b0f9de77ba45ac86821c49ca6fc6d
 
 
 module.exports = {
+  contracts_directory: "./contracts/ERC20",
   networks: {
     development: {
       host: "127.0.0.1",
